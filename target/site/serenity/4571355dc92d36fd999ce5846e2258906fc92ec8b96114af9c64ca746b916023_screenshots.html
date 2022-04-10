@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="ee00d0304bc02080f3ae082635070697abacab2c6106c484e6ab6de340d25763.html">U Test</a></span>
+                > <span class="truncate-60"><a
+                    href="4571355dc92d36fd999ce5846e2258906fc92ec8b96114af9c64ca746b916023.html">Register in the uTest platform </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-04-2022 20:18</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">U Test </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user,I want to enter the uTest community to<br />
+know the functionalities of the site
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register in the uTest platform
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="828f5c83be71e2c6c0a740ad79e545cb8322bb9c10d942cc9898a8fcda5af4b7.png" title=" Given than Daniel want to know the sities uTest" width="1920"/>
+                <img src="828f5c83be71e2c6c0a740ad79e545cb8322bb9c10d942cc9898a8fcda5af4b7.png" title=" Daniel open up" width="1920"/>
+                <img src="828f5c83be71e2c6c0a740ad79e545cb8322bb9c10d942cc9898a8fcda5af4b7.png" title=" Daniel opens the User testmy page" width="1920"/>
+                <img src="828f5c83be71e2c6c0a740ad79e545cb8322bb9c10d942cc9898a8fcda5af4b7.png" title=" Given than Daniel want to know the sities uTest" width="1920"/>
+                <img src="828f5c83be71e2c6c0a740ad79e545cb8322bb9c10d942cc9898a8fcda5af4b7.png" title=" Daniel open up (completed)" width="1920"/>
+                <img src="f8800f68068ac36a2cc95d83cb2284139d121d4f2131d37a66d1b6e141ab73aa.png" title=" When entering the data from the uTest registration form
+| first_name | last_name | email_address | month_birth | day_birth | year_birth | city | postal_code | country | your_computer | version | language | your_mobile_device | model | operating_system | password | password_confirmation |
+| daniel | giraldo | daniel@utest.com | July | 28 | 1991 | Medell&iacute;n | 110111 | Colombia | Windows | Windows 10 | Spanish | Huawei | Mate 9 Pro | Android 9.0 (Pie) | Daniel.giraldo180 | Daniel.giraldo180 |" width="1920"/>
+                <img src="f8800f68068ac36a2cc95d83cb2284139d121d4f2131d37a66d1b6e141ab73aa.png" title=" Daniel form user" width="1920"/>
+                <img src="f8800f68068ac36a2cc95d83cb2284139d121d4f2131d37a66d1b6e141ab73aa.png" title=" Daniel clicks on BTN JOIN" width="1920"/>
+                <img src="490fcfea5f759aa745a43657deb42337d6c284defd4923bb4893f966c7f11030.png" title=" Daniel enters 'daniel' into where do we write the first-name" width="1920"/>
+                <img src="1149b4d1481221c694fe6f49e1e1404265dd99ab672ceab387e1269747473fde.png" title=" Daniel enters 'giraldo' into where do we write the last-name" width="1920"/>
+                <img src="79280e40e18abc230b31fa079bf1bab273cb11f5aae277f7f6be60388b990a3f.png" title=" Daniel enters 'daniel@utest.com' into where do we write the email-address" width="1920"/>
+                <img src="4c9e1725501ee565c50750aac36a85546b9566d5927630307d101f3226d044a0.png" title=" Daniel select July on where do we write the month-birth" width="1920"/>
+                <img src="20a991c9605847d9de17e40e54d456fb7bf195dbf9c6ed266ecca82ecc539f9b.png" title=" Daniel select 28 on where do we write the day-birth" width="1920"/>
+                <img src="e72a4e10a71b9b43dbb457acd82f666bade9ff29b62372990720690747b4aa18.png" title=" Daniel select 1991 on where do we write the year of birth" width="1920"/>
+                <img src="1a302702cc32a7ab76b451ce973fa48e37f7621f14e8dd2d43ed664ee28091bb.png" title=" Daniel clicks on button Next Location" width="1920"/>
+                <img src="d56979a25c4be4615aa138e25096f1b8ea46ed4726eea72448eec9b428508981.png" title=" Daniel enters 'Medell&iacute;n' into where do we write the city" width="1920"/>
+                <img src="9fade5cec750a248da927c5a47b5d41679fd7da622fdbcf6fadd3c52b0b2180f.png" title=" Daniel types 'ARROW_DOWN' in where do we write the city" width="1920"/>
+                <img src="a0e123d58ac39f4d0c356969f8c4002999560396ee04efa99650958bda6e2b76.png" title=" Daniel types 'ENTER' in where do we write the city" width="1920"/>
+                <img src="c8db6e9da41a5c617a12e94c22c067ffd91391f62c5b6c52c696650294a25c27.png" title=" Daniel enters '110111' into where do we write the postal-code" width="1920"/>
+                <img src="72bf4190224bc6fc7c4e42d88266bc0655c5de2499f9d98c68cc815b901a9db2.png" title=" Daniel clicks on where do we write the country container" width="1920"/>
+                <img src="fa44d3cdc73c42f1ae46ad9918c3f62742406c414fe4feffb8b4820e94eb532e.png" title=" Daniel enters 'Colombia' into where do we write the country" width="1920"/>
+                <img src="f92bf63ebe6ed1856225657208eaf720324305167f0597d547088d0067fb23e2.png" title=" Daniel clicks on button Next Location" width="1920"/>
+                <img src="f3a06a4a25b28d8b7cf500585de73c86ecf55019f17447cf9834eba94df520af.png" title=" Daniel clicks on OS container" width="1920"/>
+                <img src="5cb6b6d2f3e6d6ad115be900f223b6a9e8a216a21744250a9a70fb0902bbf57f.png" title=" Daniel enters 'Windows' into OS" width="1920"/>
+                <img src="5cb6b6d2f3e6d6ad115be900f223b6a9e8a216a21744250a9a70fb0902bbf57f.png" title=" Daniel types 'ARROW_DOWN' in OS" width="1920"/>
+                <img src="40a078cb5708be3b245972b709bc1eeb4c200be54c1f3899aab0a94b4e144f6e.png" title=" Daniel types 'ENTER' in OS" width="1920"/>
+                <img src="041cb6dcfe354212e2f84dc91ffc640542e6157ab98c853b343a2784cab930c6.png" title=" Daniel clicks on version OS container" width="1920"/>
+                <img src="a5575f4cfd054556f95c8e4dabc7697673faa23fa88d45270c94e57cee4f3b50.png" title=" Daniel enters 'Windows 10' into version OS" width="1920"/>
+                <img src="6c8c53197307c340b6a4a706e3d9f1ef722d0d3e15735f853500e05799cd0711.png" title=" Daniel types 'ARROW_DOWN' in version OS" width="1920"/>
+                <img src="c5941dd3d4e47eddc422de098c7a527c772ca5c45072114e816dfe8632264e5c.png" title=" Daniel types 'ENTER' in version OS" width="1920"/>
+                <img src="393d778feb5a9e482c45f2d894719d85dde8f8bb93341527fdd8ee69b9816714.png" title=" Daniel clicks on language OS container" width="1920"/>
+                <img src="5393f465f70639b89a1b86f523fd1c604712af680d6e47ca5465b7494180f649.png" title=" Daniel enters 'Spanish' into language OS" width="1920"/>
+                <img src="5393f465f70639b89a1b86f523fd1c604712af680d6e47ca5465b7494180f649.png" title=" Daniel types 'ARROW_DOWN' in language OS" width="1920"/>
+                <img src="465029e6848bf7e83227c6a6ad7992cd2c015b760cf10b3b0ed84326264aec92.png" title=" Daniel types 'ENTER' in language OS" width="1920"/>
+                <img src="cb76121eb1e5621233941d651aab81f49b26c0dbe32fd20c4320fbb594f77684.png" title=" Daniel clicks on your-mobile-device container" width="1920"/>
+                <img src="4ff62996327ffe5c90b42c252d33ff1615cd5def0fe2499acf8adb4cd61b9996.png" title=" Daniel enters 'Huawei' into your-mobile-device" width="1920"/>
+                <img src="4ff62996327ffe5c90b42c252d33ff1615cd5def0fe2499acf8adb4cd61b9996.png" title=" Daniel types 'ARROW_DOWN' in your-mobile-device" width="1920"/>
+                <img src="d02aeb9e706d45b7d6e590eda1542ebb5baf2040aa6100a9e09eb1443a7c6386.png" title=" Daniel types 'ENTER' in your-mobile-device" width="1920"/>
+                <img src="e8c454765a625cb88fe714c77db98ec5b8360ce272f8792c9a5d2525c01666c4.png" title=" Daniel clicks on model container" width="1920"/>
+                <img src="b37b0fae1ea5cad1a1844a214b51bf0d7286a24c2cf4a867018beba7a2651f17.png" title=" Daniel enters 'Mate 9 Pro' into model" width="1920"/>
+                <img src="b37b0fae1ea5cad1a1844a214b51bf0d7286a24c2cf4a867018beba7a2651f17.png" title=" Daniel types 'ARROW_DOWN' in model" width="1920"/>
+                <img src="f9bef86c833f3a0ec407da6e5d9018dfceb5bab5fdf50ea2f434e29cc6219fe8.png" title=" Daniel types 'ENTER' in model" width="1920"/>
+                <img src="83f518d7d6a094db0459f63de7e62d7d8250a833e3ac6aa6fa71e066b84c2262.png" title=" Daniel clicks on operating-system container" width="1920"/>
+                <img src="1d33c4114987ecbc7ea9ae3917cb62b03383f9f25ed2daad341dee3e6b1e77b0.png" title=" Daniel enters 'Android 9.0 (Pie)' into operating-system" width="1920"/>
+                <img src="1d33c4114987ecbc7ea9ae3917cb62b03383f9f25ed2daad341dee3e6b1e77b0.png" title=" Daniel types 'ARROW_DOWN' in operating-system" width="1920"/>
+                <img src="f27d068aa37f5b1403a73d24f0a9afee654f6228fd03d3cfc042d8ac539a0557.png" title=" Daniel types 'ENTER' in operating-system" width="1920"/>
+                <img src="b3307f0311c71a97d5430bb453f4ea197db43690943f5df47ac3acd8120c45fd.png" title=" Daniel clicks on button NEXT_LAST_SETUP" width="1920"/>
+                <img src="1640f6e9594167da24ff54fdf7512c587fba0c7832856bc7cdcb618104fbe36e.png" title=" Daniel enters 'Daniel.giraldo180' into where do we write the password" width="1920"/>
+                <img src="bfca396d5dc251cb27fceb53a604b3501c31d6c3e29e203c5f2a3ea45f46c8b5.png" title=" Daniel enters 'Daniel.giraldo180' into where do we write confirm  password" width="1920"/>
+                <img src="520c8cd122d3e7c8f1d8cc66206855b8a3a9f4546ae4dfa464cb90878a05074e.png" title=" Daniel clicks on checkbox informed" width="1920"/>
+                <img src="142090124af57d3cf73f4ac08fe428ca6bf188074bcdfe151a54cd65693dc1b0.png" title=" Daniel clicks on checkbox terms of use" width="1920"/>
+                <img src="041e6b10222350c92fd844b05bc3a5bd712fa5d926f2f82da3e1b567e5344c86.png" title=" Daniel clicks on checkbox PRIVACY" width="1920"/>
+                <img src="16153004787c7cf6f779d4055adc18d28dd6494da616b9daaf3260944897266f.png" title=" Daniel clicks on Complete Setup" width="1920"/>
+                <img src="16153004787c7cf6f779d4055adc18d28dd6494da616b9daaf3260944897266f.png" title=" Daniel form user (completed)" width="1920"/>
+                <img src="16153004787c7cf6f779d4055adc18d28dd6494da616b9daaf3260944897266f.png" title=" When entering the data from the uTest registration form
+| first_name | last_name | email_address | month_birth | day_birth | year_birth | city | postal_code | country | your_computer | version | language | your_mobile_device | model | operating_system | password | password_confirmation |
+| daniel | giraldo | daniel@utest.com | July | 28 | 1991 | Medell&iacute;n | 110111 | Colombia | Windows | Windows 10 | Spanish | Huawei | Mate 9 Pro | Android 9.0 (Pie) | Daniel.giraldo180 | Daniel.giraldo180 | (completed)" width="1920"/>
+                <img src="ff2c724b440f268532a484dfc6f212be551598891b2067bea87b07bc93199c49.png" title=" Then he Know the functionalities of the uTest
+| welcome |
+| Welcome to the world's largest community of freelance software testers! |" width="1920"/>
+                <img src="ff2c724b440f268532a484dfc6f212be551598891b2067bea87b07bc93199c49.png" title=" Then answer" width="1920"/>
+                <img src="ff2c724b440f268532a484dfc6f212be551598891b2067bea87b07bc93199c49.png" title=" Then he Know the functionalities of the uTest
+| welcome |
+| Welcome to the world's largest community of freelance software testers! | (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
